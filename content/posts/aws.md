@@ -20,7 +20,7 @@ Obviously, it's not going to be very easy, but in real world all of the below is
 The main prerequisite is to have read access to the mailbox the account is
 registered too.
 
-The second one is to have some kind of privileged access via an IAM user or an IAM role with appropriate permissions that allow you to change the phone in the billing.
+The second one is to have some kind of privileged access via an IAM user or an IAM role with appropriate permissions that allow you to change the phone in the account settings.
 
 Here's how it works in 5 simple steps:
 
@@ -28,7 +28,7 @@ Here's how it works in 5 simple steps:
 2. You reset the root user password via email and get asked for MFA
 3. Now click "Troubleshoot MFA" and choose "Sign in using alternative factors of authentication"
 4. You'll get another link in the email and then get a call to the phone you just entered
-5. The hardware key that was attached as MFA didn't mean anything and now you have full access to the AWS account and can do anything with it.
+5. The hardware key that was attached as MFA didn't mean anything and now you have full access to the AWS account and can do whatever you want with it.
 
 ### Thoughts
 
