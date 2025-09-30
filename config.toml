@@ -4,13 +4,12 @@ theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
-paginate = 20
+[pagination]
+  pagerSize = 20
 
 pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
-
-disqusShortname = "ekini"
 
 [params]
   author = "Eugene Dementyev"
@@ -29,6 +28,8 @@ disqusShortname = "ekini"
 
   colorScheme = "auto"
   hidecolorschemetoggle = false
+
+  disqusShortname = "ekini"
 
 [taxonomies]
   category = "categories"

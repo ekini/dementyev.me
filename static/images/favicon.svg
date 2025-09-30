@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <style>
+      .bg { fill: #2d2d2d; }
+      .letter { fill: #ffffff; font-family: 'Segoe UI', 'Arial', sans-serif; font-size: 12px; font-weight: 700; text-anchor: middle; dominant-baseline: central; }
+    </style>
+  </defs>
+
+  <!-- Background with subtle border radius -->
+  <rect width="32" height="32" rx="3" class="bg"/>
+
+  <!-- E Letter -->
+  <text x="11" y="16" class="letter">E</text>
+
+  <!-- D Letter -->  
+  <text x="21" y="16" class="letter">D</text>
+</svg>
